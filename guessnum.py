@@ -28,4 +28,3 @@ if play_again.lower() == "y":
 else:
     print("Thanks for playing!")
 
-
