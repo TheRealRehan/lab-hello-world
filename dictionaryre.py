@@ -15,7 +15,6 @@ def lookup_favorite(favorites):
     else:
         print("Sorry, that category is not available.")
 
-
 def add_favorite(favorites):
     new_category = input("Enter the new category name: ")
     if new_category in favorites:
@@ -43,7 +42,6 @@ def delete_favorite(favorites):
     else:
         print("That category doesn't exist.")
 
-
 def main():
     favorites = {
         "color": "blue",
@@ -60,7 +58,7 @@ def main():
         print("5. Delete a favorite")
         print("6. Exit")
 
-        choice = input("Choose an option (1–6): ")
+        choice = input("Choose an option (16): ")
 
         if choice == "1":
             display_favorites(favorites)
@@ -77,6 +75,8 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
+
+
 
 
 
